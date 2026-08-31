@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FC8DF56-01A9-1E27-1B92-54538B5A887E" name="T_SIP_DEPENDENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>24883356-AAB4-62B3-5AC8-47E3555844DE</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="2BF04A85-FA6D-57D8-DB28-A86C8C795979">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>E64BEC89-97F9-E140-E1D8-A7DA4B59F281</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C1ABECF-B501-8427-BD5D-76F5AA8E2894" referredColumn="56E6A75B-3323-70CE-6914-69D0DC3A4EAF"/>
+</associations>
+</Column>
+<Column name="cd_dependente" id="1FD4EC71-9B27-219E-B85B-7075C17FB8A2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>608AFE88-5EDC-8B9E-C69B-E398F386A14A</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_dependente" id="FC798672-5740-EBBD-8854-FD0287003DC0">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>F04EA9C3-4A63-DB3F-1EAB-26B11EA7009C</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="AE365AB3-35F0-8757-C481-76FD9DFC4547">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>8FE8C092-9CA1-1A33-A051-ED3D068AA632</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E93F86D-8B40-3FB7-67C2-012A854CE65D" name="PK_SIP_DEPENDENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>3F796545-4F28-47C9-4EBA-A4839E8CE4C3</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FD4EC71-9B27-219E-B85B-7075C17FB8A2"/>
+<colUsage columnID="2BF04A85-FA6D-57D8-DB28-A86C8C795979"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23B98BE5-4D18-56E2-0680-F8118022D481" name="FK_SIP_DEPENDENTE_FUNC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>F202BB34-E18A-D35C-BAA2-AC6025721182</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BF04A85-FA6D-57D8-DB28-A86C8C795979"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

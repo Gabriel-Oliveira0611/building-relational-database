@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SIP_FUNC_DEPTO" directorySegmentName="seg_0" id="DACC65F1-7E10-E2B5-E0E8-30A0881680EF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>B0763179-512D-199D-435F-DA83EF16CA48</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>EF9B48E8-A847-F324-419D-9A3A89CAFCF9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14859A31-D6D6-447C-0A5A-3B02D77AF33D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9BFD3F65-BCC2-6D47-62D9-8094B7BB74B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

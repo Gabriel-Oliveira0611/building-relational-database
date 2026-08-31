@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43B449CB-511E-1317-C9E9-D20A74379C9F" name="T_SIP_BAIRRO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>C3A51BBD-E1C8-478E-E562-7F1EDECF98C6</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_bairro" id="D616051F-0468-70F4-1AB1-D0055FA93E7E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>4189A4EB-C224-3797-6435-701BCEF5E481</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cidade" id="D4DF9FBD-2EDD-5880-C865-E3654D0655EC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>82AE6313-5605-C3FE-F306-DC2C8888997B</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>AC9A2FD2-46C6-20F1-670A-341646EE0836</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>4E09B7FD-DF19-6819-2930-63AA0E75EFE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="941A6696-2258-F99C-062F-D6B31DE0340F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>7C3D1D91-B847-6F48-DBBB-DC1845BD259A</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69FF3492-9862-153A-7985-B60A9C3271DA" name="PK_SIP_BAIRRO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>7772825D-1F37-9098-FE0B-3D1164592597</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D616051F-0468-70F4-1AB1-D0055FA93E7E</newElementsIDs>
+<usedAttributes>
+<attributeRef>D616051F-0468-70F4-1AB1-D0055FA93E7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

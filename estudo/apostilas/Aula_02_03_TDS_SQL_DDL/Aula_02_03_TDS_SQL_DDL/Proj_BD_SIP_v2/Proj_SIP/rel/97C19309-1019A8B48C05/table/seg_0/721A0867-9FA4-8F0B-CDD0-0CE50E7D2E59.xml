@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="721A0867-9FA4-8F0B-CDD0-0CE50E7D2E59" name="T_SIP_PROJETO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>8D6809F3-5313-6045-F1BB-1B90004F45EB</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="A9A38521-C0A0-C107-1BD6-6D66EC6E3AB0">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>C93B9599-2182-869A-BB75-E615DBB4AD8F</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_projeto" id="44747FEE-57C4-CBFA-64A9-F3A0CA4EA0EF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>E86A8736-165F-8C41-BCA0-D101DB693870</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inciio" id="2BE1C4B7-F101-8479-11D7-FCCCC1D6976F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>00F2FEAF-5368-9A87-3B3E-23D556A083BA</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="18E35511-5229-9973-6115-44AA3D7A5805">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>9AE4ABDB-EEF9-B6C1-5B22-8775625948D3</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4A1F8D8-7A57-7A9E-FC82-4920E13409A6" name="PK_SIP_PROJETO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>A3E440C2-8293-3AFF-9146-6E3AC20F2F10</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9A38521-C0A0-C107-1BD6-6D66EC6E3AB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26BB347E-4ABA-57E0-69E1-B78240676533" name="UN_SIP_PROJETO_NOME">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>1011E008-883C-8B24-38AC-A6FCBD9CA830</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44747FEE-57C4-CBFA-64A9-F3A0CA4EA0EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

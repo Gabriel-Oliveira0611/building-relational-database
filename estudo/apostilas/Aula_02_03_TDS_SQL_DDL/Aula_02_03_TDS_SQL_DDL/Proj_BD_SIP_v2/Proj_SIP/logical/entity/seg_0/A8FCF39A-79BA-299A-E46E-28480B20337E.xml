@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8FCF39A-79BA-299A-E46E-28480B20337E" name="T_SIP_CIDADE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>97C14AF0-44FD-B2B2-EAFD-FFEFB7EC85EE</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cidade" id="4E09B7FD-DF19-6819-2930-63AA0E75EFE5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>2EF8608E-121A-D711-BA09-12AA346161C9</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estado" id="78E8DCB9-1306-F07B-9474-1C5BB876E5E2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>F1F64B80-56D9-2D09-6BA6-F23FE96FF509</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>63D8E966-7C83-6433-16EA-A0DC4BB217C6</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>695D127C-F5C8-02D8-5C2E-29371B53F89B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="A30F088C-6D89-EB05-C1EB-64769CB2D66A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>9AAE70AD-D2E6-FB7C-27A3-B85A130FC7FE</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD145DE0-620B-9AC5-B3E7-F49C4A477C20" name="PK_SIP_CIDADE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>372AEB4E-54C6-4CF9-4DE9-C293FF27A89A</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4E09B7FD-DF19-6819-2930-63AA0E75EFE5</newElementsIDs>
+<usedAttributes>
+<attributeRef>4E09B7FD-DF19-6819-2930-63AA0E75EFE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

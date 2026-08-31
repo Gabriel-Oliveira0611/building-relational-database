@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SIP_CIDADE_BAIRRO" directorySegmentName="seg_0" id="82AE6313-5605-C3FE-F306-DC2C8888997B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>CD145DE0-620B-9AC5-B3E7-F49C4A477C20</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A8FCF39A-79BA-299A-E46E-28480B20337E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43B449CB-511E-1317-C9E9-D20A74379C9F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

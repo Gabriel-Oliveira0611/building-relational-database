@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EBB0187-D80D-8FB6-5ED2-0F3556581539" containerWithKeyObject="682FEF87-813C-417D-E56B-D409414B93A9" localFKIndex="3A9765C9-127D-381E-011E-D3CE3FB7A601" name="FK_SIP_FUNC_DEPTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>DACC65F1-7E10-E2B5-E0E8-30A0881680EF</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<referredTableLongName>T_SIP_DEPTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DFDA18E-CE7D-8F16-CDAE-FDD529E2DA1D</referredTableID>
+<keyObject>4DA1D567-0335-E0AF-5BD8-151CD2BABA60</keyObject>
+<referredKeyID>4DA1D567-0335-E0AF-5BD8-151CD2BABA60</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_depto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

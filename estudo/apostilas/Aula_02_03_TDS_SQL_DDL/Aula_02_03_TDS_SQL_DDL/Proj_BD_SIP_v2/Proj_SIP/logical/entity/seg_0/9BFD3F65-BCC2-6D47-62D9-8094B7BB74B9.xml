@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BFD3F65-BCC2-6D47-62D9-8094B7BB74B9" name="T_SIP_FUNCIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>D80A0B35-6047-F882-09B0-5892D1577907</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="BDCCC4B4-F1DE-5ACD-96CE-E362E6FC6786">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>6DFA95D8-463D-1D95-21D2-B399E6E565ED</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_depto" id="86DD6036-55A9-58B9-96D2-86221E1FAF3A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:41:08 UTC</createdTime>
+<generatorID>DACC65F1-7E10-E2B5-E0E8-30A0881680EF</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>ABAD97EB-F104-70C1-85A2-B8D1EF501BAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="73C0A370-7682-FD68-DA9B-CA79774AA404">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>F4E833B9-6FDB-52B0-B084-D1723DF1BA01</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="94E2AEC9-1BE5-37D2-94D4-CC772D15EA76">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>6D05F235-F4B9-57C0-7A2E-DC82F14D58F8</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="365B5E44-8026-8419-1BB8-FB76A0612134">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>7AD0E192-3D25-D23F-90AE-533B7B72BBEF</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="E7C334D6-4D35-E669-6D3E-A82F5D212F3D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>49052CA7-AB20-0379-DAA8-FE98031140DB</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8ACDA61-9787-A897-5F93-11C3BEB2541A" name="PK_SIP_FUNCIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>998233C9-0EE8-8A27-7207-C5F69F5265B7</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BDCCC4B4-F1DE-5ACD-96CE-E362E6FC6786</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

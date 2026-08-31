@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22942668-38DA-4A31-06ED-13F56B96A6C4" containerWithKeyObject="A0536FD0-0976-0DDB-985F-924223D93F2A" localFKIndex="74F3DB50-8B5B-2538-8515-866A8054312E" name="FK_SIP_TIPO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>CC90CAB3-2330-DF29-2520-B6CAEC20EB4F</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<referredTableLongName>T_SIP_TIPO_ENDERECO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E63AE7A7-E92B-EA92-AC62-3CDB2A27FBA3</referredTableID>
+<keyObject>E3DADF0F-F9E8-CE4E-44E5-7D2D1634A52D</keyObject>
+<referredKeyID>E3DADF0F-F9E8-CE4E-44E5-7D2D1634A52D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_endereco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

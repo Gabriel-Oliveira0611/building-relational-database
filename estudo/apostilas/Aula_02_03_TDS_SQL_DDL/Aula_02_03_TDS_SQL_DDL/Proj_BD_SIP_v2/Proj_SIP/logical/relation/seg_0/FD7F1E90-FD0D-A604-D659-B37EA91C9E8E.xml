@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SIP_IMPLANTACAO_PROJETO" directorySegmentName="seg_0" id="FD7F1E90-FD0D-A604-D659-B37EA91C9E8E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>4C16787B-E83E-640F-11C5-40A5A214AB41</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>A3E440C2-8293-3AFF-9146-6E3AC20F2F10</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8D6809F3-5313-6045-F1BB-1B90004F45EB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88C44527-0200-5D41-FF70-2E29A3EF4CCF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

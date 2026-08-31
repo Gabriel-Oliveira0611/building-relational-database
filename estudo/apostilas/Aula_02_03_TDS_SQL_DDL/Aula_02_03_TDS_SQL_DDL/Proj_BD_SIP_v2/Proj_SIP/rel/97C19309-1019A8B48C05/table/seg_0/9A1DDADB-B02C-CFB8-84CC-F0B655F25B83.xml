@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A1DDADB-B02C-CFB8-84CC-F0B655F25B83" name="T_SIP_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>48EEFBDE-5CBC-9A1F-C71C-8C442310B786</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_end_correio" id="C0EAFC82-A927-52B9-4524-DD356BF7DB49">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>E06AE6E0-8DC4-1A34-31E3-301F989FD575</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_bairro" id="C7B8A156-C8FB-C480-6705-8BB4019319B3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>CCB4E3E8-2469-DEC4-1E63-A24754431D69</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="668E7D0E-CC68-ACBB-107A-357E45347FF7" referredColumn="72EE4FCA-46AE-FAF0-8D32-553E55F07832"/>
+</associations>
+</Column>
+<Column name="nr_cep" id="98CD1184-1EFC-8B22-3D99-AD3F74A6CCCA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>401F69DD-B0CE-963D-AD88-D4EC6DFB957E</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_logradouro" id="D4FF26D2-3ED7-D825-EDD8-630B456DE403">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>62960FFB-4BF2-C4A2-FE45-3F03E41AA74F</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2817664D-B6AB-E651-08ED-B3E59BEBEA90" name="PK_SIP_ENDERECO_CORREIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>EEA8722E-27A0-7EFD-296E-C51A7DC0CD95</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0EAFC82-A927-52B9-4524-DD356BF7DB49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF856AC9-AB2A-4C79-DA0C-84A3780868B4" name="FK_SIP_BAIRRO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>176C8E74-CCEC-A9B6-BDA2-9F32EF9CC108</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7B8A156-C8FB-C480-6705-8BB4019319B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SIP_BAIRRO_ENDERECO" directorySegmentName="seg_0" id="176C8E74-CCEC-A9B6-BDA2-9F32EF9CC108">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>69FF3492-9862-153A-7985-B60A9C3271DA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>43B449CB-511E-1317-C9E9-D20A74379C9F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>48EEFBDE-5CBC-9A1F-C71C-8C442310B786</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

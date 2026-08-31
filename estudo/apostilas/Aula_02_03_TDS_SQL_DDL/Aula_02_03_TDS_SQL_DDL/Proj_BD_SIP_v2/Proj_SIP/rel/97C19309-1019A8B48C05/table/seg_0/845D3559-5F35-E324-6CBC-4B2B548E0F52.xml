@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="845D3559-5F35-E324-6CBC-4B2B548E0F52" name="T_SIP_IMPLANTACAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>88C44527-0200-5D41-FF70-2E29A3EF4CCF</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="D666054A-A255-FD6A-0116-8E4672E3A38F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>20D013A6-359E-1AC9-FF4B-BF6986079561</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFB2CE8D-81A1-7AC9-721C-9488EF85C02A" referredColumn="A9A38521-C0A0-C107-1BD6-6D66EC6E3AB0"/>
+</associations>
+</Column>
+<Column name="cd_implantacao" id="02ABE10E-B4DA-AF3D-3667-F27D86528A47">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>73167D17-4AD9-B8CE-143A-25FF49375C9F</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_matricula" id="84E79709-87B2-F0B0-0AB7-C65F4E527C18">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>E817B0BE-5566-7033-8A5B-FAB61986CE56</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="079391F2-F2A4-6C36-2B77-4ADC5587D15E" referredColumn="56E6A75B-3323-70CE-6914-69D0DC3A4EAF"/>
+</associations>
+</Column>
+<Column name="dt_entrada" id="E4D794C8-5A0A-AFCA-BA66-2C16575E9D56">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>9854FDCA-F938-527F-930B-BBA696AC5A2A</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_saida" id="20AB28E0-854D-6EC1-0FA3-A88FFB5A3396">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>945D028D-CAC0-7EA8-934A-4EC3D7324C90</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A706FDC3-BFBC-3B8A-65B6-C21B007AFA85" name="PK_SIP_IMPLANTACAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>68F02104-1509-DC46-2DC2-90CF05328A2C</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02ABE10E-B4DA-AF3D-3667-F27D86528A47"/>
+<colUsage columnID="D666054A-A255-FD6A-0116-8E4672E3A38F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD5E0856-3951-9552-30AA-741D4D1A3FD0" name="FK_SIP_IMPLANTACAO_FUNC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>0B4A6602-BDFE-3D6A-52F3-90DBD87657BC</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84E79709-87B2-F0B0-0AB7-C65F4E527C18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A4EDA64-A355-DF11-C947-58D6B36F4B7E" name="FK_SIP_IMPLANTACAO_PROJETO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:43:49 UTC</createdTime>
+<generatorID>FD7F1E90-FD0D-A604-D659-B37EA91C9E8E</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D666054A-A255-FD6A-0116-8E4672E3A38F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

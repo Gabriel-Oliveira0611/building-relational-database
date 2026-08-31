@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88C44527-0200-5D41-FF70-2E29A3EF4CCF" name="T_SIP_IMPLANTACAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>704F2C75-00C6-A1D5-DC20-9DEB549EEC08</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="20D013A6-359E-1AC9-FF4B-BF6986079561">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>FD7F1E90-FD0D-A604-D659-B37EA91C9E8E</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>C93B9599-2182-869A-BB75-E615DBB4AD8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_implantacao" id="73167D17-4AD9-B8CE-143A-25FF49375C9F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>0DBAA0D9-62B1-105D-E494-E8B2230E5FE7</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="E817B0BE-5566-7033-8A5B-FAB61986CE56">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>0B4A6602-BDFE-3D6A-52F3-90DBD87657BC</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>BDCCC4B4-F1DE-5ACD-96CE-E362E6FC6786</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="9854FDCA-F938-527F-930B-BBA696AC5A2A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>F13A65BB-2A1B-10F6-3580-20927F239DA4</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="945D028D-CAC0-7EA8-934A-4EC3D7324C90">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>3C81F84F-8A63-3BA3-F610-CA5E17B9F438</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68F02104-1509-DC46-2DC2-90CF05328A2C" name="PK_SIP_IMPLANTACAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-09 11:15:14 UTC</createdTime>
+<generatorID>ABBE9E4B-9DBE-2490-D1D2-6023C2467F7E</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73167D17-4AD9-B8CE-143A-25FF49375C9F</attributeRef>
+<attributeRef>20D013A6-359E-1AC9-FF4B-BF6986079561</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

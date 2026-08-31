@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SIP_TIPO_ENDERECO" directorySegmentName="seg_0" id="CC90CAB3-2330-DF29-2520-B6CAEC20EB4F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>520B9A96-1757-9E09-4BCA-BF844662F6A8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FC488295-88AA-2B3C-8D06-269538093361</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1334431D-9034-9ED6-3437-2F7FAEA70695</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

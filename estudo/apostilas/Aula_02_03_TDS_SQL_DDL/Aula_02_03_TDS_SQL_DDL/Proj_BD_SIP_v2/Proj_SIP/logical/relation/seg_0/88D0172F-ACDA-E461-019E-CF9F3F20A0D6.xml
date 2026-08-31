@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SIP_END_CORREIO_FUNC" directorySegmentName="seg_0" id="88D0172F-ACDA-E461-019E-CF9F3F20A0D6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>EEA8722E-27A0-7EFD-296E-C51A7DC0CD95</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48EEFBDE-5CBC-9A1F-C71C-8C442310B786</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1334431D-9034-9ED6-3437-2F7FAEA70695</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

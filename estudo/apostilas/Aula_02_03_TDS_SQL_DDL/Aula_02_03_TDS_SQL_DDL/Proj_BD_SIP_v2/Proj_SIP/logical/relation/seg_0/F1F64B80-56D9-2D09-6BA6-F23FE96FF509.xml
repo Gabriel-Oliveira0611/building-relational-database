@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SIP_ESTADO_CIDADE" directorySegmentName="seg_0" id="F1F64B80-56D9-2D09-6BA6-F23FE96FF509">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>88507676-0526-A464-F617-A02BC60B6F50</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>27644684-705E-858A-E744-5933F2EDD9C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8FCF39A-79BA-299A-E46E-28480B20337E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

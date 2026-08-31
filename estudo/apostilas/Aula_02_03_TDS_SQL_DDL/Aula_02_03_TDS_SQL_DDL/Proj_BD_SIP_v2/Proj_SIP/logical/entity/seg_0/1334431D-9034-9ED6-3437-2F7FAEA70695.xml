@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1334431D-9034-9ED6-3437-2F7FAEA70695" name="T_SIP_FUNCIONARIO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>DC65587F-B0F1-7152-9217-71A97C4E5153</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_end_func" id="7D289CC4-60B4-FBEB-0CF5-5DA6D7128891">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>0CD912BD-496E-55AE-7E3C-E9113879A18C</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="AE2FAB58-3E92-9961-CDDB-A9BD4A70273F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:34:50 UTC</createdTime>
+<generatorID>3BC3019B-484D-A330-FB87-9BD310BBA58E</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>BDCCC4B4-F1DE-5ACD-96CE-E362E6FC6786</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_end_correio" id="CCBF3BEE-9419-6387-57A1-3ACDDE31AB51">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>88D0172F-ACDA-E461-019E-CF9F3F20A0D6</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>75C70714-6448-D8CE-18F5-071ED93A6F23</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>E06AE6E0-8DC4-1A34-31E3-301F989FD575</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_endereco" id="257325A5-F11B-5A1A-1098-4F06403B18B3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>CC90CAB3-2330-DF29-2520-B6CAEC20EB4F</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>19A2F925-40FD-DCA8-6718-6CBC1BFBB7FB</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>8A20D573-2179-938F-3D1E-1B43000F7D7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="2E862643-5A76-A1DA-D420-D8F67DEA64BB">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>6C635CD8-C5D4-BF4A-FA04-8B917010B4BA</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="1FA7D714-A7EF-430A-BE97-BA89D6EA2A40">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<importedID>997D4132-70FD-17E1-C1B6-259FA6C5F521</importedID>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ponto_referencia" id="ECBCF767-38FF-944A-1225-84DA973E5ECC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 14:35:25 UTC</createdTime>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC48D256-5A68-F326-9FA7-97D3D65A05F6" name="PK_SIP_FUNCIONARIO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-06-22 13:52:10 UTC</createdTime>
+<generatorID>AF5973A3-2E5F-6D02-E906-517AAB8A9BDA</generatorID>
+<ownerDesignName>Proj_SIP</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7D289CC4-60B4-FBEB-0CF5-5DA6D7128891</newElementsIDs>
+<usedAttributes>
+<attributeRef>7D289CC4-60B4-FBEB-0CF5-5DA6D7128891</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
