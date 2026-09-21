@@ -971,3 +971,40 @@ where preco_produto > (select avg(preco_produto) from produto);
 delete
 from produto
 where preco_produto = (select min(preco_produto) from PRODUTO);
+
+-- Insert into com Select
+insert into produto_backup (id_produto, nome_produto, preco_produto, estoque)
+select id_produto, nome_produto, preco_produto, estoque
+from produto;
+
+-- Exercício 01
+insert into PRODUTO_BACKUP (id_produto, nome_produto, preco_produto, estoque)
+select id_produto, nome_produto, preco_produto, estoque
+from PRODUTO;
+
+delete
+from produto_backup;
+
+-- Exercício 02
+insert into produto_backup (id_produto, nome_produto, preco_produto, estoque)
+select id_produto, nome_produto, preco_produto, estoque
+from PRODUTO
+where preco_produto > 1000;
+
+-- Exercício 03
+insert into produto_backup (id_produto, nome_produto, preco_produto, estoque)
+select id_produto, nome_produto, preco_produto, estoque
+from PRODUTO
+where estoque in (10, 20);
+
+-- Exercício 04
+insert into produto_backup (id_produto, nome_produto, preco_produto, estoque)
+select id_produto, nome_produto, preco_produto, estoque
+from PRODUTO
+where preco_produto > (select avg(preco_produto) from PRODUTO);
+
+-- Exercício 05
+insert into produto_backup (id_produto, nome_produto, preco_produto, estoque)
+select id_produto, nome_produto, preco_produto * 1.1, estoque
+from PRODUTO
+where preco_produto < 1000;
