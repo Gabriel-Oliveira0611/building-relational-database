@@ -889,3 +889,29 @@ select *
 from produto
 where preco_produto > 300
   and estoque in (select estoque from produto where preco_produto between 1000 and 2000);
+
+-- Update
+-- Exercício 01
+update produto
+set preco_produto = 150
+where id_produto = 1;
+
+-- Exercício 02
+update produto
+set preco_produto = preco_produto * 1.1
+where estoque = 10;
+
+-- Exercício 03
+update produto
+set preco_produto = preco_produto * 1.05
+where preco_produto between 500 and 2000;
+
+-- Exercício 04
+update produto
+set preco_produto = preco_produto * 1.1
+where preco_produto < (select avg(preco_produto) from produto);
+
+-- Exercício 05
+update produto
+set preco_produto = preco_produto * 1.05
+where estoque in (select estoque from produto where preco_produto > 1000);
