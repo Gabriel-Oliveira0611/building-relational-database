@@ -726,3 +726,29 @@ from produto
 where estoque in (10, 20)
   and preco_produto > 500;
 
+-- Between e Not Between
+-- Exercício 01
+select *
+from produto
+where preco_produto between 100 and 1000;
+
+-- Exercício 02
+select nome_produto, preco_produto
+from produto
+where preco_produto between 1000 and 2000;
+
+-- Exercício 03
+select *
+from produto
+where estoque between 5 and 15;
+
+-- Exercício 04
+select *
+from produto
+where preco_produto not between 500 and 2000;
+
+-- Exercício 05
+select *
+from produto
+where preco_produto between 500 and 2000
+  and estoque in (10, 20);
