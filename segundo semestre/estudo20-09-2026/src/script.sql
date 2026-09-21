@@ -862,3 +862,30 @@ where preco_produto < (select avg(preco_produto) from produto);
 select *
 from produto
 where preco_produto > (select avg(estoque) from produto where estoque = 10);
+
+-- Subqueries com in
+-- Exdercício 01
+select *
+from produto
+where estoque in (select estoque from produto where preco_produto > 1000);
+
+-- Exercício 02
+select *
+from produto
+where estoque in (select estoque from produto where preco_produto between 500 and 2000);
+
+-- Exercício 03
+select nome_produto, preco_produto, estoque
+from produto
+where estoque in (select estoque from produto where preco_produto < 500);
+
+-- Exercício 04
+select *
+from produto
+where estoque not in (select estoque from produto where preco_produto > 1000);
+
+-- Exercício 05
+select *
+from produto
+where preco_produto > 300
+  and estoque in (select estoque from produto where preco_produto between 1000 and 2000);
