@@ -915,3 +915,59 @@ where preco_produto < (select avg(preco_produto) from produto);
 update produto
 set preco_produto = preco_produto * 1.05
 where estoque in (select estoque from produto where preco_produto > 1000);
+
+-- Subqueries com DML
+update produto
+set preco_produto = preco_produto * 1.10
+where preco_produto < (select avg(preco_produto) from produto);
+
+update produto
+set preco_produto = (select avg(preco_produto)
+                     from produto)
+where id_produto = 1;
+
+update produto
+set estoque = 50
+where preco_produto > (select avg(preco_produto) from produto);
+
+update produto
+set estoque = (select max(estoque) from PRODUTO)
+where preco_produto > (select avg(preco_produto) from PRODUTO);
+
+create table produto_backup
+(
+    id_produto    number primary key,
+    nome_produto  varchar2(100),
+    preco_produto number(10, 2),
+    estoque       number
+);
+
+insert into PRODUTO_BACKUP (id_produto, nome_produto, preco_produto, estoque)
+select id_produto, nome_produto, preco_produto, estoque
+from PRODUTO
+where preco_produto > 1000;
+
+-- Exercício 01
+update produto
+set preco_produto = (select avg(preco_produto) from PRODUTO)
+where id_produto = 1;
+
+-- Exercício 02
+update produto
+set estoque = (select max(estoque) from PRODUTO)
+where id_produto = 2;
+
+-- Exercício 03
+update produto
+set estoque = 50
+where preco_produto > (select avg(preco_produto) from PRODUTO);
+
+-- Exercício 04
+update produto
+set estoque = (select max(estoque) from PRODUTO)
+where preco_produto > (select avg(preco_produto) from produto);
+
+-- Exercício 05
+delete
+from produto
+where preco_produto = (select min(preco_produto) from PRODUTO);
