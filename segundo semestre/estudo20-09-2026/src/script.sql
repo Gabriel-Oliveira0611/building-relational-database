@@ -752,3 +752,30 @@ select *
 from produto
 where preco_produto between 500 and 2000
   and estoque in (10, 20);
+
+-- Like e Not Like
+-- Exercício 01
+select *
+from produto
+where nome_produto like 'M%';
+
+-- Exercício 02
+select *
+from produto
+where nome_produto like 'N%';
+
+-- Exercício 03
+select *
+from produto
+where nome_produto like '%de%';
+
+-- Exercício 04
+select *
+from produto
+where nome_produto not like 'M%';
+
+-- Exercício 05
+select nome_produto, preco_produto, estoque
+from produto
+where nome_produto like '%o%'
+  and preco_produto between 300 and 2000;
