@@ -779,3 +779,32 @@ select nome_produto, preco_produto, estoque
 from produto
 where nome_produto like '%o%'
   and preco_produto between 300 and 2000;
+
+-- IS NULL e IS NOT NULL
+-- Exercício 01
+select *
+from produto
+where preco_produto is null;
+
+-- Exercício 02
+select *
+from produto
+where estoque is null;
+
+-- Exercício 03
+select *
+from produto
+where preco_produto is not null
+  and estoque is not null;
+
+-- Exercício 04
+select *
+from produto
+where preco_produto is null
+   or estoque is null;
+
+-- Exercício 05
+select *
+from produto
+where preco_produto is not null
+   or (estoque in (10, 20) and preco_produto between 3000 and 2000);
