@@ -7,3 +7,8 @@ create table t_fiap_aluno (
 
 select * from t_fiap_aluno;
 
+select * from T_JDBC_PRODUTO;
+
+
+
+describe T_JDBC_PRODUTO;
