@@ -808,3 +808,31 @@ select *
 from produto
 where preco_produto is not null
    or (estoque in (10, 20) and preco_produto between 3000 and 2000);
+
+-- Funções agregadoras
+-- Exercício 01
+select count(*)
+from produto;
+
+-- Exercício 02
+select count(*)
+from produto
+where preco_produto is not null;
+
+-- Exercício 03
+select min(preco_produto) as menor_preco,
+       max(preco_produto) as maior_preco
+from produto;
+
+-- Exercício 04
+select avg(preco_produto)
+from produto
+where estoque in (10, 20);
+
+-- Exercício 05
+select count(*)           as total_produtos,
+       sum(estoque)       as soma_estoque,
+       avg(preco_produto) as media_precos,
+       min(preco_produto) as menor_preco,
+       max(preco_produto) as maior_preco
+from produto;
