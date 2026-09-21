@@ -640,3 +640,89 @@ where estoque in (select estoque from produto where preco_produto > 1000);
 
 select *
 from produto;
+
+-- Select, where e order by
+-- Exercício 01
+select *
+from produto
+where preco_produto > 500;
+
+-- Exercício 02
+select nome_produto, preco_produto
+from PRODUTO
+where estoque >= 10;
+
+-- Exercício 03
+select *
+from produto
+where estoque <> 20;
+
+-- Exercício 04
+select nome_produto, preco_produto
+from produto
+order by preco_produto desc;
+
+-- Exercício 05
+select *
+from produto
+where preco_produto <= 350
+order by preco_produto;
+
+-- AND e OR
+-- Exercício 01
+select *
+from produto
+where preco_produto > 500
+  and estoque >= 10;
+
+-- Exercício 02
+select *
+from produto
+where preco_produto > 1500
+   or estoque = 5;
+
+-- Exercício 03
+select nome_produto, preco_produto, estoque
+from produto
+where preco_produto < 1000
+  and estoque > 5
+order by preco_produto desc;
+
+-- Exercício 04
+select *
+from produto
+where estoque in (10, 20);
+
+-- Exercício 05
+select *
+from produto
+where preco_produto > 500
+  and estoque in (10, 20);
+
+-- IN e NOT IN
+-- Exercício 01
+select *
+from produto
+where estoque in (10, 20);
+
+-- Exercício 02
+select *
+from produto
+where estoque in (3, 5, 7);
+
+-- Exercício 03
+select nome_produto, preco_produto
+from produto
+where nome_produto in ('Mouse', 'Monitor', 'Notebook');
+
+-- Exercício 04
+select *
+from produto
+where estoque not in (10, 20);
+
+-- Exercício 05
+select *
+from produto
+where estoque in (10, 20)
+  and preco_produto > 500;
+
