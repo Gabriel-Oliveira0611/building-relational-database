@@ -836,3 +836,29 @@ select count(*)           as total_produtos,
        min(preco_produto) as menor_preco,
        max(preco_produto) as maior_preco
 from produto;
+
+-- Subqueries escalares
+-- Exercício 01
+select *
+from produto
+where preco_produto > (select avg(preco_produto) from PRODUTO);
+
+-- Exercício 02
+select *
+from produto
+where preco_produto = (select max(preco_produto) from produto);
+
+-- Exercício 03
+select *
+from produto
+where preco_produto = (select min(preco_produto) from PRODUTO);
+
+-- Exercício 04
+select *
+from produto
+where preco_produto < (select avg(preco_produto) from produto);
+
+-- Exercício 05
+select *
+from produto
+where preco_produto > (select avg(estoque) from produto where estoque = 10);
